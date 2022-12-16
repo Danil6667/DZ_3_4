@@ -50,7 +50,6 @@ class OnBoardFragment : Fragment() {
         }
         binding.goTxt.setOnClickListener {
             findNavController().navigate(R.id.action_onBoardFragment_to_signUpFragment)
-
         }
     }
 
